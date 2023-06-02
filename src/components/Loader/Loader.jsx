@@ -1,18 +1,16 @@
-import { RotatingTriangles } from 'react-loader-spinner';
+import { ThreeCircles } from 'react-loader-spinner';
 
 import { LoaderOverlay } from './Loader.styled';
 
 export const Loader = () => {
   return (
     <LoaderOverlay>
-      <RotatingTriangles
+      <ThreeCircles
         visible={true}
         height="180"
         width="180"
-        ariaLabel="rotating-triangels-loading"
-        wrapperStyle={{ position: 'absolute', top: '30%', left: '43%' }}
-        wrapperClass="rotating-triangels-wrapper"
-        colors={['#6e36c4', '#731468', '#f1e46d']}
+        ariaLabel="three-circles-rotating"
+        color={['#6e36c4']}
       />
     </LoaderOverlay>
   );
