@@ -51,7 +51,7 @@ const MovieDetails = () => {
         <MoviePic
           src={`${fetchMovie.BASE_URL}${poster_path}`}
           alt={original_title}
-          width="300"
+          width="280"
         />
         <MovieDataWrapper>
           <Title>

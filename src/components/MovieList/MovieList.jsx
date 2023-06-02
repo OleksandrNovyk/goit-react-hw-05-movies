@@ -6,6 +6,7 @@ import { MovieListStyled, MovieListItem, MovieName } from './MovieList.styled';
 
 export const MovieList = ({ movies }) => {
   const location = useLocation();
+
   return (
     <MovieListStyled>
       {movies.map(movie => {
@@ -23,7 +24,7 @@ export const MovieList = ({ movies }) => {
                     : fetchMovie.defaultImg
                 }
                 alt={movie.title}
-                width="200"
+                width="180"
               />
             </Link>
           </MovieListItem>
