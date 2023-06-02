@@ -1,0 +1,97 @@
+.movies {
+  color: #383d39;
+}
+.movies_form {
+  display: flex;
+  align-self: baseline;
+  margin-top: 10px;
+}
+.movies_list {
+  margin: 0;
+}
+.movies_item {
+  font-size: 26px;
+}
+.movies_link {
+  text-decoration: none;
+  font-size: 26px;
+  color: inherit;
+}
+.movies_item:hover,
+.movies_item:focus {
+  color: #50a669;
+  cursor: pointer;
+}
+.input {
+  height: 25px;
+  font-size: 20px;
+}
+.btn_sub {
+  height: 31px;
+  font-size: 20px;
+}
+.movie_back_link {
+  text-decoration: none;
+}
+.movie_back {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 0px;
+  color: black;
+}
+.movie_card {
+  display: flex;
+  flex-direction: row;
+}
+.movie_inf {
+  margin-left: 20px;
+}
+.movie_title {
+  margin: 0;
+  font-size: 30px;
+  padding: 10px 0;
+}
+.movie_text {
+  margin: 0;
+  font-size: 20px;
+  padding: 10px 0;
+}
+.movie_title2 {
+  margin: 0;
+  font-size: 28px;
+  padding: 10px 0;
+}
+.movie_title3 {
+  margin: 0;
+  font-size: 26px;
+  padding: 10px 0;
+}
+.banner_error {
+  width: 300px;
+  height: 350px;
+  text-align: center;
+  border: 1px solid #383d39;
+  padding-top: 150px;
+}
+.movie_add_inf {
+  border: 2px solid #383d39;
+  padding-left: 30px;
+}
+.movie_list_addinf {
+  margin: 0;
+  padding: 0;
+}
+.movie_item_addinf {
+  list-style: none;
+  font-size: 20px;
+}
+.cast_item {
+  list-style: none;
+}
+.cast_text {
+  font-size: 20px;
+}
+.cast_list {
+  padding-left: 30px;
+}
